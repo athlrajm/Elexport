@@ -1,5 +1,5 @@
 .service-page {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Amiri', serif;
   background-color: #e7eaeb;
   overflow-x: hidden; 
 }
@@ -52,18 +52,18 @@
 }
 
 .service-image {
-  width: 100%;
-  height: auto;
-  display: block;
+  width: 1520px;
+  height: 865px;
+  
 }
 
 .service-title {
   position: absolute;
   bottom: 30px;
-  left: 50%;
+  left: 80%;
   transform: translateX(-50%);
   color: white;
-  font-size: 48px;
+  font-size: 60px;
   font-weight: bold;
 }
 
@@ -72,10 +72,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; 
-  padding: 80px;
+  padding: 70px;
   background-color: #e7eaeb;
   gap: 61px;
-  margin-left: 90px;
+  margin-left: -15px;
   margin-right: 90px;
 }
 
@@ -88,8 +88,8 @@
 }
 
 .service-option img {
-  width: 110%;
-  height: 200px;
+  height: 274.39px;
+  width: 374.12px;
   border-radius: 10px;
   
 }
@@ -97,10 +97,10 @@
 .service-button {
   position: absolute; /* Position the button relative to .service-option */
   bottom: -20px; /* Position the button from the bottom */
-  right: -50px; /* Position the button from the left */
+  right: -150px; /* Position the button from the left */
   padding: 10px 50px;
   border: none;
-  background-color: #7b207b;
+  background-color: #AA336A;
   color: white;
   border-radius: 20px;
   cursor: pointer;
@@ -108,7 +108,7 @@
 }
 
 .service-button:hover {
-  background-color: #9400d3;
+  background-color: #9b81a6;
 }
 
 
@@ -221,7 +221,10 @@
     padding: 10px;
     height: auto;
   }
-
+  .service-image {
+    width: 100%; /* Scale to the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+  }
   .logo {
     height: 100px;
     margin-bottom: 10px;
