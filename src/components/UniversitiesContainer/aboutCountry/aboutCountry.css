@@ -1,0 +1,130 @@
+.why-rel-country-container{
+    background: linear-gradient(1deg, rgba(0, 0, 0, 1) 0%, rgba(81, 74, 31, 1) 80%);
+    display: flex;
+    height: 50vw;
+    align-items: center;
+    justify-content:center;
+}
+
+.why-rel-country-container-flag{
+    padding: 2% 2% 2% 2%;
+}
+
+.why-rel-country-container-flag img{
+    height: 35vw;
+    width: 35vw;
+    border-radius: 50%;
+    border: 2px solid #F3AE27;   
+}
+
+.rel-text{
+    padding: 2%;
+}
+
+
+.rel-text p{
+    font-size: 1.1vw;
+    width: 25vw;
+    height: 50px; 
+    color: white;
+    padding: 1vw;
+    border-radius: 10px; 
+    margin-bottom: 20px;
+}
+
+.child1,.child2,.child3,.child4,.child5 {
+    position: relative;
+    border-radius: 50px;
+    height:  5vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.child1 {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(180, 50, 41, 1) 50%, rgba(255, 233, 36, 1) 100%);    
+    left: -5vw;   
+}
+
+.child2 {
+    background: black;    
+    left: -2.5vw;
+}
+
+.child3 {
+    background: #b11212;
+    left: -1vw;
+}
+
+.child4 {
+    background: #EFBF04;;
+    left: -2.5vw;
+}
+
+.child5 {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(180, 50, 41, 1) 50%, rgba(255, 233, 36, 1) 100%);    
+    left: -5vw;
+}
+
+@media only screen and (max-width: 1000px){
+    .child1,.child2,.child3,.child4,.child5 {
+        height: 6vw;
+        width: 40vw;
+    }
+
+    .rel-text p{
+        font-size: 0.8rem;
+        width: 35vw;
+    }
+}
+
+@media only screen and (min-width:590px) and (max-width: 700px) {
+    .child1,.child2,.child3,.child4,.child5 {
+        height: 5vh;
+    }
+
+    .rel-text p{
+        font-size: 0.7rem;
+        padding: 1.5vw;
+    }
+
+
+}
+
+@media only screen and (max-width:590px) {
+    .why-rel-country-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .why-rel-country-container-flag{
+        margin-top: 20px;
+    }
+
+    .why-rel-country-container-flag img{
+        height: 55vw;
+        width: 55vw;
+    }
+
+    .child1,.child2,.child3,.child4,.child5 {
+        width: 75vw;
+        height: 8vh;
+        left: 0;
+    }
+
+    .rel-text p{
+        width: 65vw;
+        font-size: 1rem;
+        padding: 15px;
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+    .child1,.child2,.child3,.child4,.child5 {
+        height: 10vh;
+        width: 85vw;
+    }
+    .why-rel-country-container-flag img{
+        width: 60vw;
+        height: 60vw;
+    }
+}
